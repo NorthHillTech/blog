@@ -18,17 +18,21 @@ It is really easy to install my blog..!
 
 Open CMD or Bash.
 
-`git clone https://github.com/NorthHillTech/blog.git` Clone Git Repositary
+- `git clone https://github.com/NorthHillTech/blog.git` Clone Git Repositary
 
-`cd blog` Point to blog directory
+- `cd blog` Point to blog directory
 
-`composer global update` Update Composer
+If composer is not updated, Run following commands 
 
-`composer global self-update` Self Update Composer to match laravel 5.5
+- `composer global update` Update Composer
 
-`composer install` Install Vendors Directory
+- `composer global self-update` Self Update Composer to match laravel 5.5
 
-Rename .env.example to .env
+Now install Vendors Directory
+
+- `composer install` Install Vendors Directory
+
+Rename `.env.example` to `.env`
 
 `php artisan key:generate`
 
