@@ -30,8 +30,6 @@
     <link rel="stylesheet" type="text/css" href="{{asset('assets/css/style.css')}}">
     <link rel="stylesheet" type="text/css" href="{{asset('assets/css/responsive.css')}}">
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
@@ -297,14 +295,14 @@
     <div class="container">
 
         <div class="section-title">
-            <h2>popular categories</h2>
+            <h2>popular Topics</h2>
         </div>
 
         <!-- Start of Row -->
         <div class="row nomargin">
 
             <!-- Start of Category Wrapper div -->
-            <div class="col-md-6 col-xs-12 cat-wrapper">
+            <div class="col-md-3 col-xs-12 cat-wrapper">
 
                 <ul>
                     <!-- Category -->
@@ -344,7 +342,87 @@
             <!-- End of Category Wrapper div -->
 
             <!-- Start of Category Wrapper div -->
-            <div class="col-md-6 col-xs-12 cat-wrapper">
+            <div class="col-md-3 col-xs-12 cat-wrapper">
+
+                <ul>
+                    <!-- Category -->
+                    <li>
+                        <a href="#">
+                            <h4>banking</h4>
+                        </a>
+                        <span>(5 open positions)</span>
+                    </li>
+
+                    <!-- Category -->
+                    <li>
+                        <a href="#">
+                            <h4>insurance</h4>
+                        </a>
+                        <span>(18 open positions)</span>
+                    </li>
+
+                    <!-- Category -->
+                    <li>
+                        <a href="#">
+                            <h4>healthcare</h4>
+                        </a>
+                        <span>(12 open positions)</span>
+                    </li>
+
+                    <!-- Category -->
+                    <li>
+                        <a href="#">
+                            <h4>managment</h4>
+                        </a>
+                        <span>(7 open positions)</span>
+                    </li>
+                </ul>
+
+            </div>
+            <!-- End of Category Wrapper div -->
+
+            <!-- Start of Category Wrapper div -->
+            <div class="col-md-3 col-xs-12 cat-wrapper">
+
+                <ul>
+                    <!-- Category -->
+                    <li>
+                        <a href="#">
+                            <h4>banking</h4>
+                        </a>
+                        <span>(5 open positions)</span>
+                    </li>
+
+                    <!-- Category -->
+                    <li>
+                        <a href="#">
+                            <h4>insurance</h4>
+                        </a>
+                        <span>(18 open positions)</span>
+                    </li>
+
+                    <!-- Category -->
+                    <li>
+                        <a href="#">
+                            <h4>healthcare</h4>
+                        </a>
+                        <span>(12 open positions)</span>
+                    </li>
+
+                    <!-- Category -->
+                    <li>
+                        <a href="#">
+                            <h4>managment</h4>
+                        </a>
+                        <span>(7 open positions)</span>
+                    </li>
+                </ul>
+
+            </div>
+            <!-- End of Category Wrapper div -->
+
+            <!-- Start of Category Wrapper div -->
+            <div class="col-md-3 col-xs-12 cat-wrapper">
 
                 <ul>
                     <!-- Category -->
@@ -400,7 +478,7 @@
     <div class="container">
 
         <div class="section-title">
-            <h2>latest jobs</h2>
+            <h2>latest Updates</h2>
         </div>
 
         <!-- Start of Row -->
