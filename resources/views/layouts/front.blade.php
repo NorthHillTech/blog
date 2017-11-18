@@ -395,35 +395,8 @@
 <!-- ===== End of Popular Categories Section ===== -->
 
 
-
-
-
-<!-- ===== Start of Get Started Section ===== -->
-<section class="get-started ptb40">
-    <div class="container">
-        <div class="row ">
-
-            <!-- Column -->
-            <div class="col-md-10 col-sm-9 col-xs-12">
-                <h3 class="text-white">20,000+ People trust Cariera! Be one of them today.</h3>
-            </div>
-
-            <!-- Column -->
-            <div class="col-md-2 col-sm-3 col-xs-12">
-                <a href="#" target="_blank" class="btn btn-blue btn-effect">get start now</a>
-            </div>
-
-        </div>
-    </div>
-</section>
-<!-- ===== End of Get Started Section ===== -->
-
-
-
-
-
 <!-- ===== Start of Latest Job Section ===== -->
-<section class="search-jobs ptb80" id="version3">
+<section class="search-jobs ptb30" id="version3">
     <div class="container">
 
         <div class="section-title">
@@ -623,9 +596,6 @@
 <!-- ===== End of Latest Job Section ===== -->
 
 
-
-
-
 <!-- ===== Start of Download APP Section ===== -->
 <section class="cariera-app pt80">
     <div class="container">
@@ -656,9 +626,6 @@
     </div>
 </section>
 <!-- ===== End of Download APP Section ===== -->
-
-
-
 
 
 <!-- ===== Start of CountUp Section ===== -->
@@ -692,9 +659,6 @@
     </div>
 </section>
 <!-- ===== End of CountUp Section ===== -->
-
-
-
 
 
 <!-- ===== Start of Testimonial Section ===== -->
@@ -752,9 +716,6 @@
     </div>
 </section>
 <!-- ===== End of Testimonial Section ===== -->
-
-
-
 
 
 <!-- ===== Start of Latest News Section ===== -->
@@ -838,9 +799,6 @@
 <!-- ===== End of Latest News Section ===== -->
 
 
-
-
-
 <!-- ===== Start of Partners ===== -->
 <section class="ptb40" id="partners">
     <div class="container">
@@ -879,9 +837,6 @@
 <!-- ===== End of Partners ===== -->
 
 
-
-
-
 <!-- =============== Start of Footer 1 =============== -->
 <footer class="footer1">
 
@@ -894,7 +849,7 @@
 
                 <!-- Your Logo Here -->
                 <a href="index-2.html">
-                    <img src="{{asset('/logo-white.svg')}}" alt="">
+                    <img src="{{asset('assets/images/logo-white.svg')}}" alt="">
                 </a>
 
                 <!-- Small Description -->
@@ -1116,15 +1071,9 @@
 <!-- =============== End of Footer 1 =============== -->
 
 
-
-
-
 <!-- ===== Start of Back to Top Button ===== -->
 <a href="#" class="back-top"><i class="fa fa-chevron-up"></i></a>
 <!-- ===== End of Back to Top Button ===== -->
-
-
-
 
 
 <!-- ===== Start of Login Pop Up div ===== -->
@@ -1189,8 +1138,6 @@
 </div>
 <!-- cd-user-modal -->
 <!-- ===== End of Login Pop Up div ===== -->
-
-
 
 
 
