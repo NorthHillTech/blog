@@ -45,7 +45,7 @@
 
             <!-- Logo -->
             <div class="col-md-2 col-sm-6 col-xs-8 nopadding">
-                <a class="navbar-brand nomargin" href="#"><img src="{{asset('assets/images/logo.svg')}}" alt="logo"></a>
+                <a class="navbar-brand nomargin" href="#"><img src="{{asset('assets/images/logo.png')}}" alt="logo"></a>
                 <!-- INSERT YOUR LOGO HERE -->
             </div>
 
@@ -838,7 +838,7 @@
 
                 <!-- Your Logo Here -->
                 <a href="#">
-                    <img src="{{asset('assets/images/logo-white.svg')}}" alt="">
+                    <img src="{{asset('assets/images/logo.svg')}}" alt="">
                 </a>
 
                 <!-- Small Description -->
