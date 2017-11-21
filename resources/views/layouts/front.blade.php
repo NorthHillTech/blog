@@ -474,7 +474,7 @@
 
 
 <!-- ===== Start of Latest Job Section ===== -->
-<section class="search-jobs ptb30" id="version3">
+<section class="search-jobs ptb20" id="version3">
     <div class="container">
 
         <div class="section-title">
@@ -488,7 +488,7 @@
             <div class="col-md-12 job-post-main">
 
                 <!-- Start of Job Post Wrapper -->
-                <div class="job-post-wrapper mt20">
+                <div class="job-post-wrapper">
 
                     <!-- ===== Start of Single Job Post 1 ===== -->
                     <div class="single-job-post row shadow-hover">
@@ -706,98 +706,8 @@
 <!-- ===== End of Download APP Section ===== -->
 
 
-<!-- ===== Start of CountUp Section ===== -->
-<section class="ptb40" id="countup">
-    <div class="container">
-
-        <!-- 1st Count up item -->
-        <div class="col-md-3 col-sm-3 col-xs-12">
-            <span class="counter" data-from="0" data-to="743"></span>
-            <h4>members</h4>
-        </div>
-
-        <!-- 2nd Count up item -->
-        <div class="col-md-3 col-sm-3 col-xs-12">
-            <span class="counter" data-from="0" data-to="579"></span>
-            <h4>jobs</h4>
-        </div>
-
-        <!-- 3rd Count up item -->
-        <div class="col-md-3 col-sm-3 col-xs-12">
-            <span class="counter" data-from="0" data-to="251"></span>
-            <h4>resumes</h4>
-        </div>
-
-        <!-- 4th Count up item -->
-        <div class="col-md-3 col-sm-3 col-xs-12">
-            <span class="counter" data-from="0" data-to="330"></span>
-            <h4>companies</h4>
-        </div>
-
-    </div>
-</section>
-<!-- ===== End of CountUp Section ===== -->
-
-
-<!-- ===== Start of Testimonial Section ===== -->
-<section class="ptb80" id="testimonials">
-    <div class="container">
-
-        <!-- Section Title -->
-        <div class="section-title">
-            <h2 class="text-white">testimonials</h2>
-        </div>
-
-
-        <!-- Start of Owl Slider -->
-        <div class="owl-carousel testimonial">
-
-            <!-- Start of Slide item -->
-            <div class="item">
-                <div class="review">
-                    <blockquote>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy t ext ever since the 1500s.</blockquote>
-                </div>
-                <div class="customer">
-                    <img src="{{asset('assets/images/clients/client1.jpg')}}" alt="">
-                    <h4 class="uppercase pt20">customer</h4>
-                </div>
-            </div>
-            <!-- End Slide item -->
-
-            <!-- Start of Slide item -->
-            <div class="item">
-                <div class="review">
-                    <blockquote>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy t ext ever since the 1500s.</blockquote>
-                </div>
-                <div class="customer">
-                    <img src="{{asset('assets/images/clients/client2.jpg')}}" alt="">
-                    <h4 class="uppercase pt20">customer</h4>
-                </div>
-            </div>
-            <!-- End Slide item -->
-
-            <!-- Start of Slide item -->
-            <div class="item">
-                <div class="review">
-                    <blockquote>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy t ext ever since the 1500s.</blockquote>
-                </div>
-                <div class="customer">
-                    <img src="{{asset('assets/images/clients/client3.jpg')}}" alt="">
-                    <h4 class="uppercase pt20">customer</h4>
-                </div>
-            </div>
-            <!-- End Slide item -->
-
-        </div>
-        <!-- End of Owl Slider -->
-
-    </div>
-</section>
-<!-- ===== End of Testimonial Section ===== -->
-
-
 <!-- ===== Start of Latest News Section ===== -->
-<section class="ptb80" id="latest-news">
+<section class="ptb40" id="latest-news">
     <div class="container">
 
         <!-- Section Title -->
@@ -926,7 +836,7 @@
             <div class="col-md-3 col-sm-6 col-xs-6 footer-about">
 
                 <!-- Your Logo Here -->
-                <a href="index-2.html">
+                <a href="#">
                     <img src="{{asset('assets/images/logo-white.svg')}}" alt="">
                 </a>
 
