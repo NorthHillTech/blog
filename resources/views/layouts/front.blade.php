@@ -295,7 +295,7 @@
     <div class="container">
 
         <div class="section-title">
-            <h2>popular Topics</h2>
+            <h3>popular Topics</h3>
         </div>
 
         <!-- Start of Row -->
@@ -314,7 +314,7 @@
                     </li>
 
                     <!-- Category -->
-                    <li>
+                    <li class="hide-cat">
                         <a href="#">
                             <h4>design & art</h4>
                         </a>
@@ -322,7 +322,7 @@
                     </li>
 
                     <!-- Category -->
-                    <li>
+                    <li class="hide-cat">
                         <a href="#">
                             <h4>IT engineer</h4>
                         </a>
@@ -330,7 +330,7 @@
                     </li>
 
                     <!-- Category -->
-                    <li>
+                    <li class="hide-cat">
                         <a href="#">
                             <h4>marketing</h4>
                         </a>
@@ -354,7 +354,7 @@
                     </li>
 
                     <!-- Category -->
-                    <li>
+                    <li class="hide-cat">
                         <a href="#">
                             <h4>insurance</h4>
                         </a>
@@ -362,7 +362,7 @@
                     </li>
 
                     <!-- Category -->
-                    <li>
+                    <li class="hide-cat">
                         <a href="#">
                             <h4>healthcare</h4>
                         </a>
@@ -370,7 +370,7 @@
                     </li>
 
                     <!-- Category -->
-                    <li>
+                    <li class="hide-cat">
                         <a href="#">
                             <h4>managment</h4>
                         </a>
@@ -394,7 +394,7 @@
                     </li>
 
                     <!-- Category -->
-                    <li>
+                    <li class="hide-cat">
                         <a href="#">
                             <h4>insurance</h4>
                         </a>
@@ -402,7 +402,7 @@
                     </li>
 
                     <!-- Category -->
-                    <li>
+                    <li class="hide-cat">
                         <a href="#">
                             <h4>healthcare</h4>
                         </a>
@@ -410,7 +410,7 @@
                     </li>
 
                     <!-- Category -->
-                    <li>
+                    <li class="hide-cat">
                         <a href="#">
                             <h4>managment</h4>
                         </a>
@@ -434,7 +434,7 @@
                     </li>
 
                     <!-- Category -->
-                    <li>
+                    <li class="hide-cat">
                         <a href="#">
                             <h4>insurance</h4>
                         </a>
@@ -442,7 +442,7 @@
                     </li>
 
                     <!-- Category -->
-                    <li>
+                    <li class="hide-cat">
                         <a href="#">
                             <h4>healthcare</h4>
                         </a>
@@ -450,7 +450,7 @@
                     </li>
 
                     <!-- Category -->
-                    <li>
+                    <li class="hide-cat">
                         <a href="#">
                             <h4>managment</h4>
                         </a>
@@ -464,8 +464,9 @@
         </div>
         <!-- End of Row -->
 
-        <div class="col-md-12 mt40 text-center">
-            <a href="#" class="btn btn-blue btn-effect nomargin">browse all</a>
+        <div class="col-md-12 mt10 text-center">
+            <a href="#" id="show-cat"><i class="fa fa-3x fa-angle-double-down"></i></a>
+            <a href="#" id="hide-cat"><i class="fa fa-3x fa-angle-double-up"></i></a>
         </div>
 
     </div>
@@ -478,7 +479,7 @@
     <div class="container">
 
         <div class="section-title">
-            <h2>latest Updates</h2>
+            <h3>latest Updates</h3>
         </div>
 
         <!-- Start of Row -->
@@ -721,7 +722,7 @@
                 <!-- Blog Post Image -->
                 <div class="blog-post-thumbnail">
                     <a href="blog-post.html" class="hover-link">
-                        <img src="{{asset('/blog/blog1.jpg')}}" alt="">
+                        <img src="{{asset('assets/images/blog/blog1.jpg')}}" alt="">
                     </a>
                 </div>
 
@@ -751,7 +752,7 @@
                 <!-- Blog Post Image -->
                 <div class="blog-post-thumbnail">
                     <a href="blog-post.html" class="hover-link">
-                        <img src="{{asset('/blog/blog2.jpg')}}" alt="">
+                        <img src="{{asset('assets/images/blog/blog2.jpg')}}" alt="">
                     </a>
                 </div>
 
@@ -879,7 +880,7 @@
                     <!-- Thumbnail -->
                     <div class="thumbnail-post">
                         <a href="blog-post-right-sidebar.html">
-                            <img src="{{asset('/blog/blog1.jpg')}}" alt="">
+                            <img src="{{asset('assets/images/blog/blog1.jpg')}}" alt="">
                         </a>
                     </div>
 
@@ -896,7 +897,7 @@
                     <!-- Thumbnail -->
                     <div class="thumbnail-post">
                         <a href="blog-post-right-sidebar.html">
-                            <img src="{{asset('/blog/blog2.jpg')}}" alt="">
+                            <img src="{{asset('assets/images/blog/blog2.jpg')}}" alt="">
                         </a>
                     </div>
 
@@ -913,7 +914,7 @@
                     <!-- Thumbnail -->
                     <div class="thumbnail-post">
                         <a href="blog-post-right-sidebar.html">
-                            <img src="{{asset('/blog/blog3.jpg')}}" alt="">
+                            <img src="{{asset('assets/images/blog/blog3.jpg')}}" alt="">
                         </a>
                     </div>
 
