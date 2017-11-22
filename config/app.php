@@ -13,7 +13,34 @@ return [
     |
     */
 
-    'name' => env('APP_NAME', 'Blog'),
+    'name' => env('APP_NAME', 'Tech XDA'),
+
+    /*
+    |--------------------------------------------------------------------------
+    | Application Logo
+    |--------------------------------------------------------------------------
+    |
+    | This value is the logo of your application. This value is used when the
+    | framework needs to place the application's logo in a notification or
+    | any other location as required by the application or its packages.
+    |
+    */
+
+    'logo' => env('APP_LOGO', 'http://techxda.lc/assets/images/logo.png'),
+
+    /*
+    |--------------------------------------------------------------------------
+    | Application Logo
+    |--------------------------------------------------------------------------
+    |
+    | This value is the logo of your application. This value is used when the
+    | framework needs to place the application's logo in a notification or
+    | any other location as required by the application or its packages.
+    |
+    */
+
+    'favicon' => env('APP_FAVICON', 'http://techxda.lc/assets/images/favicon.png'),
+
 
     /*
     |--------------------------------------------------------------------------
@@ -65,7 +92,7 @@ return [
     |
     */
 
-    'timezone' => 'UTC',
+    'timezone' => 'Asia/Kolkata',
 
     /*
     |--------------------------------------------------------------------------

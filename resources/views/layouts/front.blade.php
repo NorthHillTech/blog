@@ -15,8 +15,8 @@
     <meta name="author" content="GnoDesign">
 
     <!-- Website Title -->
-    <title>Tech Blog</title>
-    <link rel="shortcut icon" href="{{asset('assets/images/favicon.png')}}" type="image/x-icon">
+    <title>{{ config('app.name') }}</title>
+    <link rel="shortcut icon" href="{{ config('app.favicon') }}" type="image/x-icon">
     <link rel="apple-touch-icon-precomposed" href="assets/images/apple-touch-icon.html">
 
     <!-- Google Fonts -->
@@ -45,7 +45,7 @@
 
             <!-- Logo -->
             <div class="col-md-2 col-sm-6 col-xs-8 nopadding">
-                <a class="navbar-brand nomargin" href="#"><img src="{{asset('assets/images/logo.png')}}" alt="logo"></a>
+                <a class="navbar-brand nomargin" href="#"><img src="{{ config('app.logo') }}" alt="logo"></a>
                 <!-- INSERT YOUR LOGO HERE -->
             </div>
 
@@ -272,12 +272,6 @@
                                 <li><a href="checkout.html">checkout</a></li>
                             </ul>
                         </li>
-
-                        <!-- Login Menu Item -->
-                        <li class="menu-item login-btn">
-                            <a id="modal_trigger" href="javascript:void(0)" role="button"><i class="fa fa-lock"></i>login</a>
-                        </li>
-
                     </ul>
                 </div>
                 <!-- End of Main Nav -->
@@ -291,7 +285,7 @@
 
 
 <!-- ===== Start of Popular Categories Section ===== -->
-<section class="ptb20" id="categories2">
+<section class="ptb10" id="categories2">
     <div class="container">
 
         <div class="section-title">
@@ -525,7 +519,7 @@
 
 
                     <!-- ===== Start of Single Job Post 2 ===== -->
-                    <div class="single-job-post row shadow-hover mt30">
+                    <div class="single-job-post row shadow-hover mt10">
                         <!-- Job Company -->
                         <div class="col-md-2 col-xs-3">
                             <div class="job-company">
@@ -558,7 +552,7 @@
 
 
                     <!-- ===== Start of Single Job Post 3 ===== -->
-                    <div class="single-job-post row shadow-hover mt30">
+                    <div class="single-job-post row shadow-hover mt10">
                         <!-- Job Company -->
                         <div class="col-md-2 col-xs-3">
                             <div class="job-company">
@@ -591,7 +585,7 @@
 
 
                     <!-- ===== Start of Single Job Post 4 ===== -->
-                    <div class="single-job-post row shadow-hover mt30">
+                    <div class="single-job-post row shadow-hover mt10">
                         <!-- Job Company -->
                         <div class="col-md-2 col-xs-3">
                             <div class="job-company">
@@ -624,7 +618,172 @@
 
 
                     <!-- ===== Start of Single Job Post 5 ===== -->
-                    <div class="single-job-post row shadow-hover mt30">
+                    <div class="single-job-post row shadow-hover mt10">
+                        <!-- Job Company -->
+                        <div class="col-md-2 col-xs-3">
+                            <div class="job-company">
+                                <a href="#">
+                                    <img src="{{asset('assets/images/companies//twitter.svg')}}" alt="">
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- Job Title & Info -->
+                        <div class="col-md-8 col-xs-6 ptb20">
+                            <div class="job-title">
+                                <a href="#">senior health advisor</a>
+                            </div>
+
+                            <div class="job-info">
+                                <span class="company"><i class="fa fa-building-o"></i>twitter</span>
+                                <span class="location"><i class="fa fa-map-marker"></i>New York, USA</span>
+                            </div>
+                        </div>
+
+                        <!-- Job Category -->
+                        <div class="col-md-2 col-xs-3 ptb30">
+                            <div class="job-category">
+                                <a href="javascript:void(0)" class="btn btn-red btn-small btn-effect">temporary</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ===== End of Single Job Post 5 ===== -->
+
+
+                    <!-- ===== Start of Single Job Post 1 ===== -->
+                    <div class="single-job-post row shadow-hover mt10">
+                        <!-- Job Company -->
+                        <div class="col-md-2 col-xs-3">
+                            <div class="job-company">
+                                <a href="#">
+                                    <img src="{{asset('assets/images/companies//envato.svg')}}" alt="">
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- Job Title & Info -->
+                        <div class="col-md-8 col-xs-6 ptb20">
+                            <div class="job-title">
+                                <a href="job-page.html">php senior developer</a>
+                            </div>
+
+                            <div class="job-info">
+                                <span class="company"><i class="fa fa-building-o"></i>Envato</span>
+                                <span class="location"><i class="fa fa-map-marker"></i>Melbourn, Australia</span>
+                            </div>
+                        </div>
+
+                        <!-- Job Category -->
+                        <div class="col-md-2 col-xs-3 ptb30">
+                            <div class="job-category">
+                                <a href="javascript:void(0)" class="btn btn-green btn-small btn-effect">full time</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ===== End of Single Job Post 1 ===== -->
+
+
+                    <!-- ===== Start of Single Job Post 2 ===== -->
+                    <div class="single-job-post row shadow-hover mt10">
+                        <!-- Job Company -->
+                        <div class="col-md-2 col-xs-3">
+                            <div class="job-company">
+                                <a href="#">
+                                    <img src="{{asset('assets/images/companies//google.svg')}}" alt="">
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- Job Title & Info -->
+                        <div class="col-md-8 col-xs-6 ptb20">
+                            <div class="job-title">
+                                <a href="#">department head</a>
+                            </div>
+
+                            <div class="job-info">
+                                <span class="company"><i class="fa fa-building-o"></i>Google</span>
+                                <span class="location"><i class="fa fa-map-marker"></i>Berlin, Germany</span>
+                            </div>
+                        </div>
+
+                        <!-- Job Category -->
+                        <div class="col-md-2 col-xs-3 ptb30">
+                            <div class="job-category">
+                                <a href="javascript:void(0)" class="btn btn-purple btn-small btn-effect">part time</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ===== End of Single Job Post 2 ===== -->
+
+
+                    <!-- ===== Start of Single Job Post 3 ===== -->
+                    <div class="single-job-post row shadow-hover mt10">
+                        <!-- Job Company -->
+                        <div class="col-md-2 col-xs-3">
+                            <div class="job-company">
+                                <a href="#">
+                                    <img src="{{asset('assets/images/companies//facebook.svg')}}" alt="">
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- Job Title & Info -->
+                        <div class="col-md-8 col-xs-6 ptb20">
+                            <div class="job-title">
+                                <a href="#">graphic designer</a>
+                            </div>
+
+                            <div class="job-info">
+                                <span class="company"><i class="fa fa-building-o"></i>Facebook</span>
+                                <span class="location"><i class="fa fa-map-marker"></i>london, uk</span>
+                            </div>
+                        </div>
+
+                        <!-- Job Category -->
+                        <div class="col-md-2 col-xs-3 ptb30">
+                            <div class="job-category">
+                                <a href="javascript:void(0)" class="btn btn-blue btn-small btn-effect">freelancer</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ===== End of Single Job Post 3 ===== -->
+
+
+                    <!-- ===== Start of Single Job Post 4 ===== -->
+                    <div class="single-job-post row shadow-hover mt10">
+                        <!-- Job Company -->
+                        <div class="col-md-2 col-xs-3">
+                            <div class="job-company">
+                                <a href="#">
+                                    <img src="{{asset('assets/images/companies//envato.svg')}}" alt="">
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- Job Title & Info -->
+                        <div class="col-md-8 col-xs-6 ptb20">
+                            <div class="job-title">
+                                <a href="#">senior UI & UX designer</a>
+                            </div>
+
+                            <div class="job-info">
+                                <span class="company"><i class="fa fa-building-o"></i>Envato</span>
+                                <span class="location"><i class="fa fa-map-marker"></i>Melbourn, Australia</span>
+                            </div>
+                        </div>
+
+                        <!-- Job Category -->
+                        <div class="col-md-2 col-xs-3 ptb30">
+                            <div class="job-category">
+                                <a href="javascript:void(0)" class="btn btn-orange btn-small btn-effect">intership</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ===== End of Single Job Post 4 ===== -->
+
+
+                    <!-- ===== Start of Single Job Post 5 ===== -->
+                    <div class="single-job-post row shadow-hover mt10">
                         <!-- Job Company -->
                         <div class="col-md-2 col-xs-3">
                             <div class="job-company">
@@ -675,156 +834,6 @@
 <!-- ===== End of Latest Job Section ===== -->
 
 
-<!-- ===== Start of Download APP Section ===== -->
-<section class="cariera-app pt80">
-    <div class="container">
-        <div class="row">
-
-            <!-- Start of Column -->
-            <div class="col-md-6 col-xs-12 pb80">
-                <h2 class="text-white">Get Cariera Application Now!</h2>
-                <p class="pt20 text-white">Download our brand new App and never lose a chance to start your new career!</p>
-
-                <ul class="list-inline mt40">
-                    <li><a href="javascript:void(0)" class="btn btn-purple btn-effect"><i class="fa fa-apple" aria-hidden="true"></i>ios app</a></li>
-                    <li><a href="javascript:void(0)" class="btn btn-purple btn-effect"><i class="fa fa-android" aria-hidden="true"></i>android app</a></li>
-                </ul>
-            </div>
-            <!-- End of Column -->
-
-            <!-- Start of Column -->
-            <div class="col-md-6 col-xs-12">
-                <div class="app-wrapper">
-                    <img src="{{asset('assets/images/img/app.png')}}" alt="">
-
-                </div>
-            </div>
-            <!-- End of column -->
-
-        </div>
-    </div>
-</section>
-<!-- ===== End of Download APP Section ===== -->
-
-
-<!-- ===== Start of Latest News Section ===== -->
-<section class="ptb40" id="latest-news">
-    <div class="container">
-
-        <!-- Section Title -->
-        <div class="section-title">
-            <h2>latest news</h2>
-        </div>
-
-        <!-- Start of Blog Post -->
-        <div class="col-md-6 col-xs-12 mb60">
-            <div class="blog-post blog-post-ver2">
-                <!-- Blog Post Image -->
-                <div class="blog-post-thumbnail">
-                    <a href="blog-post.html" class="hover-link">
-                        <img src="{{asset('assets/images/blog/blog1.jpg')}}" alt="">
-                    </a>
-                </div>
-
-                <!-- Blog Post Info -->
-                <div class="post-info">
-                    <a href="blog-post.html">Top 10 tipps for Web Developers</a>
-
-                    <div class="post-details">
-                        <span class="date"><i class="fa fa-calendar"></i>September 7, 2016</span>
-                        <span class="comments"><i class="fa fa-comment"></i>0 Comments</span>
-                    </div>
-
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy t ext ever since the 1500s....</p>
-
-                </div>
-
-                <!-- Read More Button -->
-                <a href="blog-post.html" class="btn btn-blue btn-small btn-effect">read more</a>
-
-            </div>
-        </div>
-        <!-- End of Blog Post -->
-
-        <!-- Start of Blog Post -->
-        <div class="col-md-6 col-xs-12 mb60">
-            <div class="blog-post blog-post-ver2">
-                <!-- Blog Post Image -->
-                <div class="blog-post-thumbnail">
-                    <a href="blog-post.html" class="hover-link">
-                        <img src="{{asset('assets/images/blog/blog2.jpg')}}" alt="">
-                    </a>
-                </div>
-
-                <!-- Blog Post Info -->
-                <div class="post-info">
-                    <a href="blog-post.html">How to prepare for an Interview</a>
-
-                    <div class="post-details">
-                        <span class="date"><i class="fa fa-calendar"></i>September 7, 2016</span>
-                        <span class="comments"><i class="fa fa-comment"></i>0 Comments</span>
-                    </div>
-
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy t ext ever since the 1500s....</p>
-
-                </div>
-
-                <!-- Read More Button -->
-                <a href="blog-post.html" class="btn btn-blue btn-small btn-effect">read more</a>
-
-            </div>
-        </div>
-        <!-- End of Blog Post -->
-
-
-        <div class="col-md-12 col-xs-12 text-center">
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-
-            <a href="blog-right-sidebar-v1.html" class="btn btn-purple btn-effect mt20">visit blog</a>
-        </div>
-
-    </div>
-</section>
-<!-- ===== End of Latest News Section ===== -->
-
-
-<!-- ===== Start of Partners ===== -->
-<section class="ptb40" id="partners">
-    <div class="container">
-
-        <!-- Start of Owl Slider -->
-        <div class="owl-carousel partners-slider">
-            <!-- Partner Logo -->
-            <div class="item">
-                <a href="#"><img src="{{asset('assets/images/companies//themeforest.png')}}" alt=""></a>
-            </div>
-
-            <!-- Partner Logo -->
-            <div class="item">
-                <a href="#"><img src="{{asset('assets/images/companies//codecanyon.png')}}" alt=""></a>
-            </div>
-
-            <!-- Partner Logo -->
-            <div class="item">
-                <a href="#"><img src="{{asset('assets/images/companies//graphicriver.png')}}" alt=""></a>
-            </div>
-
-            <!-- Partner Logo -->
-            <div class="item">
-                <a href="#"><img src="{{asset('assets/images/companies//photodune.png')}}" alt=""></a>
-            </div>
-
-            <!-- Partner Logo -->
-            <div class="item">
-                <a href="#"><img src="{{asset('assets/images/companies//audiojungle.png')}}" alt=""></a>
-            </div>
-        </div>
-        <!-- End of Owl Slider -->
-
-    </div>
-</section>
-<!-- ===== End of Partners ===== -->
-
 
 <!-- =============== Start of Footer 1 =============== -->
 <footer class="footer1">
@@ -838,7 +847,7 @@
 
                 <!-- Your Logo Here -->
                 <a href="#">
-                    <img src="{{asset('assets/images/logo.svg')}}" alt="">
+                    <img src="{{ config('app.logo') }}" alt="">
                 </a>
 
                 <!-- Small Description -->
@@ -983,7 +992,7 @@
         <div class="container">
 
             <div class="col-md-6 col-sm-6 col-xs-12">
-                <span>Copyright &copy; <a href="#">cariera</a>. All Rights Reserved</span>
+                <span>Copyright &copy; <a href="{{ config('app.url') }}">{{ config('app.name') }}</a>. All Rights Reserved</span>
             </div>
 
             <div class="col-md-6 col-sm-6 col-xs-12">
@@ -1063,70 +1072,6 @@
 <!-- ===== Start of Back to Top Button ===== -->
 <a href="#" class="back-top"><i class="fa fa-chevron-up"></i></a>
 <!-- ===== End of Back to Top Button ===== -->
-
-
-<!-- ===== Start of Login Pop Up div ===== -->
-<div class="cd-user-modal">
-    <!-- this is the entire modal form, including the background -->
-    <div class="cd-user-modal-container">
-        <!-- this is the container wrapper -->
-        <ul class="cd-switcher">
-            <li><a href="#0">Sign in</a></li>
-            <li><a href="#1">New account</a></li>
-        </ul>
-
-        <div id="cd-login">
-            <!-- log in form -->
-            <form class="cd-form">
-                <p class="fieldset">
-                    <label class="image-replace cd-email" for="signin-email">E-mail</label>
-                    <input class="full-width has-padding has-border" id="signin-email" type="email" placeholder="E-mail">
-                </p>
-                <p class="fieldset">
-                    <label class="image-replace cd-password" for="signin-password">Password</label>
-                    <input class="full-width has-padding has-border" id="signin-password" type="password" placeholder="Password">
-                </p>
-                <p class="fieldset">
-                    <input type="checkbox" id="remember-me" checked>
-                    <label for="remember-me">Remember me</label>
-                </p>
-                <p class="fieldset">
-                    <button type="submit" value="Login" class="btn btn-blue btn-effect">Login</button>
-                </p>
-            </form>
-        </div>
-        <!-- cd-login -->
-
-        <div id="cd-signup">
-            <!-- sign up form -->
-            <form class="cd-form">
-                <p class="fieldset">
-                    <label class="image-replace cd-username" for="signup-username">Username</label>
-                    <input class="full-width has-padding has-border" id="signup-username" type="text" placeholder="Username">
-                </p>
-                <p class="fieldset">
-                    <label class="image-replace cd-email" for="signup-email">E-mail</label>
-                    <input class="full-width has-padding has-border" id="signup-email" type="email" placeholder="E-mail">
-                </p>
-                <p class="fieldset">
-                    <label class="image-replace cd-password" for="signup-password">Password</label>
-                    <input class="full-width has-padding has-border" id="signup-password" type="password" placeholder="Password">
-                </p>
-                <p class="fieldset">
-                    <input type="checkbox" id="accept-terms">
-                    <label for="accept-terms">I agree to the <a href="#0">Terms</a></label>
-                </p>
-                <p class="fieldset">
-                    <button class="btn btn-blue btn-effect" type="submit" value="Create account">Create Account</button>
-                </p>
-            </form>
-        </div>
-        <!-- cd-signup -->
-    </div>
-    <!-- cd-user-modal-container -->
-</div>
-<!-- cd-user-modal -->
-<!-- ===== End of Login Pop Up div ===== -->
 
 
 
