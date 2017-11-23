@@ -32,7 +32,7 @@ Now install Vendors Directory
 
 - `composer install` Install Vendors Directory
 
-- Rename `.env.example` to `.env`
+- Rename `.env.example` to `.env`. If linux `cp .env.example .env`
 
 - `php artisan key:generate`
 
