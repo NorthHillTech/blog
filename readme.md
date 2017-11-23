@@ -36,7 +36,11 @@ Now install Vendors Directory
 
 - `php artisan key:generate`
 
-- `php artisan serve`
+- Setup up database info in .env file.
+
+- seed and migrate data using `php artisan migrate:refresh --seed`
+
+- Start php server `php artisan serve`
 
 ## License
 
